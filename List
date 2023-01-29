@@ -1,0 +1,17 @@
+#append
+fruits1 = ["apple", "mango", "pineapple", "banana"]
+print("Base List : ", fruits1, "\n")
+fruits1.append("grapes")
+print("List after adding element at last : ")
+print(fruits1)
+
+#reverse
+fruits2 = ["apple", "mango", "pineapple", "banana"]
+print("Base List : ", fruits2, "\n")
+fruits2.reverse()
+print("List after reversing : ", fruits2)
+
+#sort
+fruits3 = ["apple", "mango", "pineapple", "banana"]
+fruits3.sort()
+print("Sorted List : " , fruits3)
